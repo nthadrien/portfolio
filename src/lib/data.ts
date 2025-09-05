@@ -1,3 +1,5 @@
+import { address } from "framer-motion/client";
+
 export const personalInfo = {
   name: "Nana Tchuimeni Hadrien",
   location: "Cameroun",
@@ -52,7 +54,18 @@ export const workExperience = [
     achievements: [
     "Built and maintained scalable and secure web applications.",
     "Designing Posters and flyers for small businesses.",
+    "links: aafeben.org, ntibusinessconsulting.netlify.app.",
     "Tech Stack: JavaScript, typescript, jQuery, c#, node js, express js, react js, solid js, Asp.net, bootstrap, MySQL, PostgreSQL, Tiny CME and Docker."
+    ],
+    refer: [
+      {
+        name:"Mr Nti Biloa Alphonse",
+        address: "CEO & CTO of Wakamann | Wakamann, sarlu. | weberkanga77@gmail.com"
+      },
+      {
+        name:"Mr Hermann Mopo. k",
+        address: "Program Officer | Aafeben | hermannmopo@yahoo.com"
+      }
     ],
   },
 ];
