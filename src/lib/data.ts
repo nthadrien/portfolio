@@ -16,7 +16,14 @@ export const workExperience = [
     position: "Frontend Internship",
     period: "Oct 2021 - Jan 2022",
     achievements: [
-      
+      "Front-end implementation of components of Nowaka, a real estate project.",
+      "Tech stack : Node Js, React js, Nest js , TailwindCss"
+    ],
+    refer: [
+      {
+        name:"Mr Kana Mario .B",
+        address: "Chef Sales of Wakamann | +237 691 55 43 46"
+      }
     ],
   },
   {
@@ -25,6 +32,16 @@ export const workExperience = [
     position: "Software Developer",
     period: "Feb 20222 - Jul 2023",
     achievements: [
+      "Developement and maintainance of responsive, user-friendly, and visually appealing Wakamann ecommerce website and Nowaka a real estate project.",
+      "Implementation and maintenance of endpoints",
+      "Collaborate with cross-functional teams to optimize website performance, and user experience.",
+      "Tech Stack: Node Js, React js, Nest js, Apollo, GraphQL, Typescript, tailwind CSS, Nest Js, Jest, docker and Express Js."
+    ],
+    refer: [
+      {
+        name:"Mr Weber Dubois. N",
+        address: "CEO & CTO of Wakamann | Wakamann, sarlu. | weberkanga77@gmail.com"
+      }
     ],
   },
   {
@@ -33,6 +50,9 @@ export const workExperience = [
     position: "Fullstack Developper",
     period: "Aug 2023 - today",
     achievements: [
+    "Built and maintained scalable and secure web applications.",
+    "Designing Posters and flyers for small businesses.",
+    "Tech Stack: JavaScript, typescript, jQuery, c#, node js, express js, react js, solid js, Asp.net, bootstrap, MySQL, PostgreSQL, Tiny CME and Docker."
     ],
   },
 ];
