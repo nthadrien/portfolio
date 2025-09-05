@@ -1,19 +1,19 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
+  name: "Nana Tchuimeni Hadrien",
+  location: "Cameroun",
+  email: "hadrien.wakacode@gmail.com",
+  github: "https://github.com/nthadrien",
+  linkedin: "https://linkedin.com/in/",
   profilePicture: "/profile.jpeg",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "I'm a full-stack developer passionate about building impactful web APIs. I have strong logical and mathematical problem-solving skills and can work for long hours. I am proactive and constantly seeking to acquire new skills.",
 };
 
 export const workExperience = [
   {
-    company: "Lorem Ipsum Corp",
-    location: "Lorem City",
-    position: "Lorem Engineer",
+    company: "Wakamann",
+    location: "Buea on site",
+    position: "Frontend Internship",
     period: "Jan 2020 - Present",
     achievements: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -26,8 +26,8 @@ export const workExperience = [
     ],
   },
   {
-    company: "Dolor Sit Amet",
-    location: "Ipsumville",
+    company: "Wakaman .Sarlu",
+    location: "Buea hybrid (remote & on site)",
     position: "Software Developer",
     period: "Feb 2019 - Jan 2020",
     achievements: [
@@ -36,10 +36,10 @@ export const workExperience = [
     ],
   },
   {
-    company: "Consectetur Inc.",
-    location: "Adipiscing, Ipsum",
-    position: "Intern",
-    period: "Jun 2018 - Feb 2019",
+    company: "Freelancing",
+    location: "Remote & On site",
+    position: "Fullstack Developper",
+    period: "Sept 2023 - Feb 2019",
     achievements: [
       "Praesent dapibus, neque id cursus faucibus.",
       "Fusce feugiat malesuada odio.",
@@ -49,123 +49,175 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
+    institution: "University Of Buea",
     location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    degree: "B.Sc. Major Theoretical Physics minor Computer Science",
+    period: "2012 - 2016",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "Second class honour lower",
+      "G.P.A: 2.5"
+    ],
+  },
+  {
+    institution: "University Of Buea",
+    location: "Lorem City",
+    degree: "M.Sc. Major Theoretical Physics",
+    period: "2017 - 2022",
+    achievements: [
+      "Completed course work and Research",
+      "Second class honour",
+      "G.P.A: 3.25"
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "HTML5", "CSS3", "PHP", "JavaScript", "Typescript", "C# ", "Go",
   ],
   frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
+    "Blade", 
+    "Razor", 
+    "jQuery", 
+    "Angular Js", 
+    "React Js", 
+    "Solid Js", 
+    "Astro Js", 
+    "Hugo", 
+    "ApolloJs",
+    "PostCSS",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
+  backendDevelopment: ["PHP", "NodeJs","Bun","Laravel","Nestjs","Hono","ExpressJS","ASP.NET Core"],
+  databaseAndStorage: ["MySQL", "SQLite","PostgreSQL","MongoDB"],
+  cloudAndDevOps: ["Docker","Gitlab","GitHub"],
   toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
+    "Figma",
+    "Gitbash",
+    "Vscode",
+    "Powerpoint",
+    "Gimp",
   ],
 };
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "Laravel CRUD",
+    github: "https://github.com/nhadrien/laravel-12-crud",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "Simple CRUD (Create, Read, Update, Delete) web application built with the PHP framework Laravel.",
+      "Uses SQLite as a database for easy and lightweight deployment.",
+      "The user interface is fully styled with the utility-first CSS framework Tailwind CSS.",
+      "This project demonstrates the basic data management features of Laravel.",
     ],
   },
   {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
+    title: "Laravel Blog",
+    github: "https://github.com/nhadrien/laravel-multiuser-blog ",
     description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+      "A complete blog system developed with Laravel, with an emphasis on security and simplicity.",
+      "User authentication is handled by Laravel Breeze, an official starter kit that quickly integrates login and registration features.",
+      "The database is managed by Eloquent ORM, Laravel's database interaction tool, which allows for clean and expressive data manipulation.",
+      "The front-end interface is styled with Tailwind CSS for a modern and responsive design.",
+    ],
+  },
+  {
+    title: "Hono Bun Room Booking",
+    github: "https://github.com/nhadrien/bun-hono-estate-be",
+    description: [
+      "High-performance room booking API, built on the Hono.js framework.",
+      "The project uses Bun, a fast JavaScript runtime, for ultra-fast development and execution.",
+      "The code is written in TypeScript for better maintainability and early error detection.",
+      "Booking data is stored and managed in a SQLite database.",
     ],
   },
 ];
 
 export const awards = [
   {
-    name: "Lorem Ipsum Award",
-    issuer: "Lorem Organization",
-    date: "Jan 2020",
+    name: "Certifications Orcale",
+    issuer: "Oracle",
+    date: "On going",
     type: "International",
-    position: "First Place",
+    position: "not yet known",
   },
-  {
-    name: "Dolor Sit Amet Prize",
-    issuer: "Ipsum Foundation",
-    date: "Feb 2021",
-    type: "National",
-    position: "Runner-up",
-  },
-  {
-    name: "Consectetur Hackathon",
-    issuer: "Adipiscing Org",
-    date: "Mar 2022",
-    type: "National",
-    position: "Winner",
-  },
-  {
-    name: "Vestibulum Event",
-    issuer: "Vestibulum College",
-    date: "Apr 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "Curabitur Hackfest",
-    issuer: "Curabitur Institute",
-    date: "May 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Praesent Hacks",
-    issuer: "Praesent Group",
-    date: "Jun 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Fusce Hack",
-    issuer: "Fusce Club",
-    date: "Jul 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
+  // {
+  //   name: "Dolor Sit Amet Prize",
+  //   issuer: "Ipsum Foundation",
+  //   date: "Feb 2021",
+  //   type: "National",
+  //   position: "Runner-up",
+  // },
+  // {
+  //   name: "Consectetur Hackathon",
+  //   issuer: "Adipiscing Org",
+  //   date: "Mar 2022",
+  //   type: "National",
+  //   position: "Winner",
+  // },
+  // {
+  //   name: "Vestibulum Event",
+  //   issuer: "Vestibulum College",
+  //   date: "Apr 2022",
+  //   type: "National",
+  //   position: "First Prize",
+  // },
+  // {
+  //   name: "Curabitur Hackfest",
+  //   issuer: "Curabitur Institute",
+  //   date: "May 2022",
+  //   type: "National",
+  //   position: "Second Prize",
+  // },
+  // {
+  //   name: "Praesent Hacks",
+  //   issuer: "Praesent Group",
+  //   date: "Jun 2022",
+  //   type: "National",
+  //   position: "Second Runner-up",
+  // },
+  // {
+  //   name: "Fusce Hack",
+  //   issuer: "Fusce Club",
+  //   date: "Jul 2022",
+  //   type: "National",
+  //   position: "Most Impactful Hack",
+  // },
 ];
+
+
+
+/*
+
+{
+    title: "Laravel CRUD",
+    github: "https://github.com/loremipsum/project",
+    description: [
+      "Application web CRUD (Create, Read, Update, Delete) simple construite avec le framework PHP Laravel.",
+      "Utilise SQLite comme base de données pour un déploiement facile et léger.",
+      "Le style de l'interface utilisateur est entièrement géré par le framework CSS utilitaire Tailwind CSS.",
+      "Ce projet démontre les fonctionnalités de base de Laravel pour la gestion des données.",
+    ],
+  },
+  {
+    title: "Laravel Blog",
+    github: "https://github.com/loremipsum/project",
+    description: [
+      "Un système de blog complet développé avec Laravel, mettant l'accent sur la sécurité et la simplicité.",
+      "L'authentification des utilisateurs est gérée par Laravel Breeze, un starter kit officiel qui intègre rapidement les fonctionnalités de connexion et d'inscription.",
+      "La base de données est gérée par Eloquent ORM, l'outil d'interaction avec la base de données de Laravel, permettant une manipulation des données propre et expressive.",
+      "L'interface front-end est stylisée avec Tailwind CSS pour un design moderne et responsive.",
+    ],
+  },
+  {
+    title: "Hono Bun Room Booking",
+    github: "https://github.com/loremipsum/project",
+    description: [
+      "API de réservation de chambres performante, construite sur le framework Hono.js.",
+      "Le projet utilise Bun, un runtime JavaScript rapide, pour un développement et une exécution ultra-rapides.",
+      "Le code est écrit en TypeScript pour une meilleure maintenabilité et une détection précoce des erreurs.",
+      "Les données de réservation sont stockées et gérées dans une base de données SQLite.",
+    ],
+
+
+*/
