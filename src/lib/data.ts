@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "hadrien.wakacode@gmail.com",
   github: "https://github.com/nthadrien",
   linkedin: "https://linkedin.com/in/",
-  profilePicture: "/profile.jpeg",
+  profilePicture: "/portfolio/ppic.jpg",
   heroDescription:
     "I'm a full-stack developer passionate about building impactful web APIs. I have strong logical and mathematical problem-solving skills and can work for long hours. I am proactive and constantly seeking to acquire new skills.",
 };
@@ -14,35 +14,25 @@ export const workExperience = [
     company: "Wakamann",
     location: "Buea on site",
     position: "Frontend Internship",
-    period: "Jan 2020 - Present",
+    period: "Oct 2021 - Jan 2022",
     achievements: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
-      "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.",
+      
     ],
   },
   {
     company: "Wakaman .Sarlu",
     location: "Buea hybrid (remote & on site)",
     position: "Software Developer",
-    period: "Feb 2019 - Jan 2020",
+    period: "Feb 20222 - Jul 2023",
     achievements: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
     ],
   },
   {
     company: "Freelancing",
     location: "Remote & On site",
     position: "Fullstack Developper",
-    period: "Sept 2023 - Feb 2019",
+    period: "Aug 2023 - today",
     achievements: [
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
     ],
   },
 ];
@@ -50,7 +40,7 @@ export const workExperience = [
 export const education = [
   {
     institution: "University Of Buea",
-    location: "Lorem City",
+    location: "Buea, Cameroun",
     degree: "B.Sc. Major Theoretical Physics minor Computer Science",
     period: "2012 - 2016",
     achievements: [
@@ -60,13 +50,22 @@ export const education = [
   },
   {
     institution: "University Of Buea",
-    location: "Lorem City",
-    degree: "M.Sc. Major Theoretical Physics",
+    location: "Buea, Cameroun",
+    degree: "M.Sc. Theoretical Physics",
     period: "2017 - 2022",
     achievements: [
       "Completed course work and Research",
       "Second class honour",
       "G.P.A: 3.25"
+    ],
+  },
+  {
+    institution: "Udacity & Udemy",
+    location: "Remote",
+    degree: "none",
+    period: "2022 - currently",
+    achievements: [
+      "Completed free fundamental courses on JS , CSS and Design Principles",
     ],
   },
 ];

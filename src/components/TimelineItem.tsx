@@ -59,8 +59,9 @@ export default function TimelineItem({
           viewport={{ once: true, margin: "-50px" }}
         >
           <h3 className="font-medium">{title}</h3>
-          <p className="text-sm text-muted-foreground">{subtitle}</p>
-          <p className="text-xs text-muted-foreground/70 mb-2">{date}</p>
+          <p className="text-sm text-muted-foreground">
+            <span>{subtitle}</span> - <span>{date}</span>
+          </p>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}

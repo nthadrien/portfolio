@@ -21,7 +21,7 @@ export default function ExperienceSection() {
               viewport={{ once: true }}
             >
               💼
-            </motion.span>{" "}
+            </motion.span>
             Work Experience
           </h2>
         </MotionWrapper>

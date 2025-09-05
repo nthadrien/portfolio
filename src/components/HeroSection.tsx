@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
 export default function HeroSection() {
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -48,11 +49,11 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Fullstack Software Developper 👨‍💻
             </motion.p>
 
             <motion.div
-              className="flex flex-col gap-2 items-center md:items-start"
+              className="flex flex-wrap gap-2 items-center md:items-start"
               variants={containerVariants}
             >
               <motion.div
@@ -61,7 +62,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                {personalInfo.location}
               </motion.div>
 
               <motion.a
@@ -71,7 +72,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
+                {personalInfo.email}
               </motion.a>
 
               <motion.a
@@ -83,7 +84,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
+                GitHub
               </motion.a>
 
               <motion.a
@@ -95,7 +96,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
-                🔗 LinkedIn
+                LinkedIn
               </motion.a>
             </motion.div>
           </div>
@@ -108,12 +109,12 @@ export default function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <img
+              {/* <img
                 src={personalInfo.profilePicture}
                 alt="Profile"
                 className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
-              />
+              /> */}
             </div>
           </motion.div>
         </motion.div>
