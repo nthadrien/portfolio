@@ -48,7 +48,7 @@ export default function ExperienceSection() {
                   </div>
                   <h4 className="text-sm font-medium">Key Achievements</h4>
                 </div>
-                <ul className="list-none ml-4 space-y-2 text-sm">
+                <ul className="list-none ml-2 sm:ml-4 space-y-2 text-sm">
                   {job.achievements.map((achievement, i) => (
                     <motion.li
                       key={i}
@@ -63,12 +63,12 @@ export default function ExperienceSection() {
                   ))}
                 </ul>
                 
-                <ul className="list-none border-l mt-4 pl-8 space-y-2 text-sm">
+                <ul className="list-none border-l mt-4 pl-4 sm:pl-8 space-y-2 text-xs">
                   <h5 className="text-sm font-medium">References:</h5>
                   {job.refer.map((achievement, i) => (
                     <motion.li
                       key={i}
-                      className="text-muted-foreground relative pl-6"
+                      className="text-muted-foreground relative pl-2 sm:pl-6"
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.3, delay: 0.1 * i }}

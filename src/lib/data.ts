@@ -120,15 +120,14 @@ export const skills = {
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["PHP", "NodeJs","Bun","Laravel","Nestjs","Hono","ExpressJS","ASP.NET Core"],
+  backendDevelopment: ["PHP", "NodeJs","Bun","Laravel","NestJs","Hono","ExpressJS","ASP.NET Core"],
   databaseAndStorage: ["MySQL", "SQLite","PostgreSQL","MongoDB"],
   cloudAndDevOps: ["Docker","Gitlab","GitHub"],
   toolsAndServices: [
+    "TinyCME","Zod","Openapi",
     "Figma",
     "Gitbash",
     "Vscode",
-    "Powerpoint",
-    "Gimp",
   ],
 };
 
@@ -145,7 +144,7 @@ export const projects = [
   },
   {
     title: "Laravel Blog",
-    github: "https://github.com/nhadrien/laravel-multiuser-blog ",
+    github: "https://github.com/nhadrien/laravel-multiuser-blog.git",
     description: [
       "A complete blog system developed with Laravel, with an emphasis on security and simplicity.",
       "User authentication is handled by Laravel Breeze, an official starter kit that quickly integrates login and registration features.",
@@ -155,7 +154,7 @@ export const projects = [
   },
   {
     title: "Hono Bun Room Booking",
-    github: "https://github.com/nhadrien/bun-hono-estate-be",
+    github: "https://github.com/nthadrien/bun-hono-estate-be.git",
     description: [
       "High-performance room booking API, built on the Hono.js framework.",
       "The project uses Bun, a fast JavaScript runtime, for ultra-fast development and execution.",
